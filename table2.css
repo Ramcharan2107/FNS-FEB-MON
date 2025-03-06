@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+table,th,td{
+    border: 1px solid grey;
+    width: 30%;
+    text-align: center;
+}
+td{
+    height: 30px;
+}
+th{
+    height: 50px;
+}
+tr:nth-child(odd){
+    background-color: rgb(220, 133, 133);
+}
+tr:nth-child(even){
+    background-color: rgb(130, 130, 230);
+}
+tr:hover{
+    background-color: chocolate;
+}
+
